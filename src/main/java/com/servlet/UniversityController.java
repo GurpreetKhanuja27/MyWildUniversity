@@ -18,7 +18,7 @@ import com.bean.Student;
 /**
  * Servlet implementation class UniversityController
  */
-@WebServlet("/controller")
+@WebServlet("/frontcontroller")
 public class UniversityController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
