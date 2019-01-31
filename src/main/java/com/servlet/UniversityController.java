@@ -32,7 +32,7 @@ public class UniversityController extends HttpServlet {
     	
     	if(action.equals("register")) {
     		
-    		view = request.getRequestDispatcher("registerStudent.jsp");
+    		view = request.getRequestDispatcher("studentregistration.jsp");
     		view.forward(request, response);
     		
     	}else if(action.equals("list")) {    		 	
